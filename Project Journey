@@ -1,0 +1,19 @@
+I am an embroidery designer, and after some time I thought of creating an embroidery design app. I started by doing research, checking how other apps worked, and used them as references. At that time, I didn’t have much knowledge, so I explained my idea to a developer and got the app built. In the beginning, the UI/UX was very poor, and even the logo was not good. The app was named Rama Embroidery Design Gallery. It was an e-commerce app for selling digital embroidery designs, mainly targeted towards embroidery designers, embroidery machine owners, and related professionals.
+
+In this app, different categories of designs were available such as logos, badges, kurtis, sarees, and other ladies’ garments. A person could log in, select the top category like multi, sequence, or cording, and then choose subcategories such as kurti, neck, lehenga, border, buta, etc. After that, they could buy the design they needed.
+
+At first, one issue came up during login. The AWS OTP-based login was creating a lot of charges, so I changed it to Gmail OTP login which was free of cost. The payment gateway I used initially was CCAvenue. But after some time, users started facing issues again. The user interface was not good, and in this industry, most people are not very educated or tech-friendly. Because of that, Gmail OTP login also became difficult for many users. Even with CCAvenue, the payment was not direct—it was redirecting users to PhonePe where they had to manually enter the UPI ID, which was not convenient.
+
+To fix these problems, I decided to make the app very simple and easy to use. I redesigned the UI/UX, added a favourite design option, and simplified the login system where users could just enter their name, phone number, or email to log in directly. Later, I integrated Razorpay as the payment gateway. Razorpay also had its own issues. They were not allowing new users to access the account, and at one point my account was even blocked. I kept contacting the support team and after a few months I managed to get it resolved and continued with Razorpay.
+
+After that, things became smoother. I added animated banners on the homepage to make it more attractive. I also added phone and WhatsApp icons so that if users had any issue, they could contact me directly. Earlier, downloaded designs were not being saved, so I added the download history option. Then I introduced package plans where users could buy designs for a limited validity period at a cheaper price. Another improvement was creating an All Designs section, where all newly uploaded designs would be displayed in one place for easy access. A backend system was also developed so that designs could be uploaded regularly.
+
+I also connected the app with Firebase, which helped me in two ways:
+
+Using Firebase Analytics, I was able to track user behavior, understand which designs were popular, and analyze where users were facing issues.
+
+Through Firebase Cloud Messaging, I sent notifications to users about new design launches, updates, or package offers. This created quick awareness and improved engagement whenever new content was uploaded.
+
+The app functions include: a homepage with banners, phone and WhatsApp icons, an “All Designs” section, top category → category → design list, design details page with name, price, and buy option, favourite option, package plans, download option, search function, analytics tracking, and push notifications.
+
+So far, the app has crossed 5000+ downloads on Play Store. I have kept improving the app by collecting user feedback. For marketing and awareness, I promoted it on Pinterest, WhatsApp groups, Telegram groups, and YouTube by showing the designs. Now I am analyzing the response, and if things go well, I will plan more advanced features in the future.
